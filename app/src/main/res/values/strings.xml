@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloToast</string>
+    <string name="text_title">¡Hello Toast!</string>
+    <string name="button_toast">TOAST</string>
+    <string name="button_count">Incrementar</string>
+    <string name="textView_count">0</string>
+    <string name="textView">Estás en la vista LandScape.</string>
+</resources>

@@ -1,0 +1,47 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Título de la aplicación -->
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_title"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botón para mostrar el mensaje Toast -->
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9C27B0"
+        android:text="@string/button_toast"
+        android:textColor="#FFFFFF" />
+
+    <!-- TextView para mostrar el contador -->
+    <TextView
+        android:id="@+id/textView_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para incrementar el contador -->
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_count"
+        android:backgroundTint="#9C27B0"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
